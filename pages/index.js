@@ -49,7 +49,7 @@ export default function Home(props) {
 					<ModalRender onHide={showModalHandler} />
 					<List>
 						<ListItem>
-							<Title>Zapraszam do aplikacji gnNews</Title>
+							<Title>Zapraszam do aplikacji gnNews.</Title>
 							<Description>
 								Hej, jestem Oskar i mam przyjemność przedstawić wam moją
 								aplikację gnNews. Jest to aplikacja, która pozwala na
