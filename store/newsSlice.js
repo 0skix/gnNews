@@ -4,11 +4,14 @@ export const setCurrentCountry = (countryCode) => {
 	return { type: "news/setCurrentCountry", payload: countryCode };
 };
 
+console.log(process.env.NEXT_PUBLIC_API_KEY);
+
 export const fetchNews = createAsyncThunk(
 	"news/fetchNews",
 	async (countryCode) => {
 		const response = await fetch(
-			`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=6aa4a582871b46908dfe1473fe58c32c`
+			`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=` +
+				process.env.NEXT_PUBLIC_API_KEY
 		);
 		const data = await response.json();
 		if (data.status === "ok") {
