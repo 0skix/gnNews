@@ -1,0 +1,7 @@
+[
+	{ "nameEN": "Poland", "namePL": "Polska", "code": "pl" },
+	{ "nameEN": "Deutsch", "namePL": "Niemcy", "code": "de" },
+	{ "nameEN": "Australia", "namePL": "Australia", "code": "au" },
+	{ "nameEN": "Belgium", "namePL": "Belgia", "code": "be" },
+	{ "nameEN": "USA", "namePL": "USA", "code": "us" }
+]
